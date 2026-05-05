@@ -246,3 +246,13 @@ See [training-log.md](training-log.md) for detailed run history and findings.
 - [I-JEPA](https://arxiv.org/abs/2301.08243) — Self-supervised learning through prediction in representation space
 - [IRED](https://arxiv.org/abs/2401.02361) — Iterative reasoning with energy diffusion
 - [JEPA-Reasoner](https://arxiv.org/abs/2502.07253) — Applying JEPA to logical reasoning tasks
+
+---
+
+## Lyapunov Extension
+
+Deterministic gradient flow alternative to Langevin.
+
+Run:
+uv run python scripts/lyapunov_demo.py --checkpoint checkpoints/best.pt
+
