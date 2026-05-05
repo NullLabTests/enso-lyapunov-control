@@ -256,3 +256,16 @@ Deterministic gradient flow alternative to Langevin.
 Run:
 uv run python scripts/lyapunov_demo.py --checkpoint checkpoints/best.pt
 
+
+---
+
+## 🌐 Web App (Visual AI Demo)
+
+Interactive Lyapunov Gradient Flow visualizer:
+
+cd enso-web
+npm install
+npm run dev
+
+Or deployed via Vercel.
+
